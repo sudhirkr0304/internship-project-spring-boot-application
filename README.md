@@ -35,6 +35,9 @@
        POST - http://localhost:8080/catalogs - add the data into the catalogs.
        
        GET - http://localhost:8080/catalogs/suppliers/{id} - seach the catalog by supplier id .
+       
+       GET - http://localhost:8080/catalogs/catalogs/{skuName} - seach the catalog SKU Name( FULL or PARTIAL) 
+       
       
       
       
