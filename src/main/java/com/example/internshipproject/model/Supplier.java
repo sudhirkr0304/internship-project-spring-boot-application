@@ -6,6 +6,10 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+
+/**
+ * @author sudhir kumar
+ */
 @Entity
 @Table(name = "supplier")
 @EntityListeners(AuditingEntityListener.class)

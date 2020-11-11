@@ -9,6 +9,10 @@ import org.springframework.web.context.request.WebRequest;
 
 import java.util.Date;
 
+/**
+ * @author sudhir kumar
+ * date - 11-11-2020
+ */
 @ControllerAdvice
 public class GlobalExceptionHandler {
 

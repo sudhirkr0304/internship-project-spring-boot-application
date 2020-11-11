@@ -4,6 +4,9 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 
+/**
+ * @author sudhir kumar
+ */
 @Entity
 @Table(name = "catalog")
 @EntityListeners(AuditingEntityListener.class)
